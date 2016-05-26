@@ -1,3 +1,5 @@
+##Mini-Stereo Digital Audio Processor for EE6306 (ASIC Design)
+
 ### Introduction
 Most of the modern multimedia systems require the implementation of audio processors which are highly accurate and efficient being the first priority. In order to achieve this, the cost becomes invariantly high. So, when the same design is to be used for portable devices or household applications such as audio systems, cost of the audio processor and power consumption are of major concern. Most of the similar audio processing designs are implemented using the Digital Signal Processing (DSP) chips with separate left and right channel processing that performs the basic function of Finite Impulse Response (FIR) Digital Filter. These filters will invariably involve multiplications. Implementing hardware multiplication, either floating or fixed point, is very costly with regard to power, area and complexity. We overcome these issues by replacing the multiplication unit with a one bit shifter and either an addition/subtraction unit which proves to be much faster and efficient than the former.
 
