@@ -9,6 +9,7 @@ The system has been designed from specifications to RTL to physical design, taki
 * Physical design (Place & Route and timing analysis) using Synopsys IC Compiler
 
 ### Description and Usage of Files
+* For proof of concept, MSDAP.c has been created as a golden reference for verifying operation of the Verilog model.
 * There are two versions of the full Verilog design - one in behavioral style (MSDAP_Behavioral.v) and the other in structural RTL style (MSDAP_RTL.v). Both are equivalent in functionality.
 * There is a Verilog testbench file (Testbench.v) which feeds the input values and gathers output values.
 * There is a data1.in file, which contains vectors for coefficient and input data values, to be used in the testbench to simulate the design.
